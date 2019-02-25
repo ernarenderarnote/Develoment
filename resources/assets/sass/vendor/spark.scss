@@ -1,0 +1,28 @@
+body {
+  .navbar-nav > li > a,
+  .navbar-brand,
+  .hamburger {
+    height: 50px;
+  }
+  
+  .with-navbar {
+    padding-top: 50px;
+  }
+  
+  .navbar-icon {
+    padding-top: 0;
+  }
+  
+  .spark-nav-profile-photo {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .btn {
+    text-transform: none;
+  }
+  
+  .spark-profile-photo {
+    background: #3d3733;
+  }
+}

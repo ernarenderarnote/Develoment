@@ -1,0 +1,22 @@
+.add-product-wizard {
+  .attribute-options-tree {
+    max-height: 350px;
+    //overflow-y: scroll;
+  }
+  
+  .breadcrumb {
+    margin: 0;
+  }
+  
+  .thumbnail {
+    .btn-preview-file-remove {
+      display: none;
+    }
+    
+    &:hover {
+      .btn-preview-file-remove {
+        display: inline-block;
+      }
+    }
+  }
+}

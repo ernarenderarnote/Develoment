@@ -1,0 +1,13 @@
+.grid-4-columns[data-columns]:before {
+  content: '4 .column.size-1of4';
+}
+
+.grid-4-columns[data-columns] .column {
+  float: left;
+}
+
+.grid-4-columns[data-columns] .column.size-1of4 {
+  width: 25%;
+  padding: 0 8px;
+}
+

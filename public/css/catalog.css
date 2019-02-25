@@ -1,0 +1,343 @@
+body {
+  color: #282828;
+  font-family: 'Lato', sans-serif;
+}
+
+.shipping-product {
+  border-left: 1px solid #dfe4e8;
+  border-right: 1px solid #dfe4e8;
+  height: auto;
+  padding: 40px 15px 10px;
+  display: inline-block;
+  width: 100%;
+}
+
+.shipping-backlink a {
+  color: #f00;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.worldwide-shippingheading {
+  width: 100%;
+  float: left;
+  margin: 15px 0px 20px;
+}
+
+.worldwide-shippingheading img {
+  max-width: 45px;
+  margin-right: 11px;
+}
+
+.worldwide-shippingheading h3 {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #282828;
+}
+
+.product-grids {
+  width: 100%;
+  float: left;
+  margin-bottom: 0px;
+}
+
+.product-grids table {
+  width: 100%;
+  border-radius: 3px;
+}
+
+.product-grids table th {
+  text-align: center;
+  height: auto;
+  padding: 8px 8px;
+  font-weight: 300;
+  background: #dfe4e9;
+  font-size: 17px;
+}
+
+.product-grids table td {
+  background: #f9fafb;
+  text-align: center;
+  border: 1px dotted #ddd;
+  border-left: 0px;
+  border-right: 0px;
+  padding: 8px 4px;
+  font-size: 1.5em;
+  border-right: 1px dotted #ddd;
+  color: #282828;
+}
+
+.product-grids table td.kv-grouped-row {
+  padding: 8px 0px;
+  font-weight: bold;
+  border-bottom: 0px;
+  font-size: 22px;
+  color: #000;
+}
+
+.product-grids table td .fg-green {
+  color: #f00;
+  font-weight: 500;
+}
+
+.product-grids table .product-firstcolumn {
+  max-width: 130px;
+}
+
+.product-grids table .product-secondcolumn {
+  width: 17.86%;
+}
+
+.product-grids table .product-thirdcolumn {
+  min-width: 54.61%;
+}
+
+.product-grids table .product-fifthcolumn {
+  width: 4.54%;
+}
+
+.product-grids table .product-7thcolumn {
+  width: 4.76%;
+}
+
+.product-grids table .product-8thcolumn {
+  width: 4.23%;
+}
+
+.product-grids table th.product-8thcolumn {
+  padding: 0px;
+}
+
+.product-grids table a.fg-green {
+  color: #f00;
+  width: 100%;
+  padding: 20px 0px;
+}
+
+.product-grids table .product-togglelink .fa-minus {
+  display: block;
+}
+
+.product-grids table .product-togglelink .fa-plus {
+  display: none;
+}
+
+.product-grids table a:hover,
+.product-grids table a:focus {
+  text-decoration: none;
+}
+
+.product-grids table th.product-8thcolumn:hover {
+  background-color: #eee;
+}
+
+.product-grids table th.product-8thcolumn a:hover {
+  color: #245269;
+}
+
+.product-grids .skip-export {
+  padding: 20px 20px;
+  width: 100%;
+  float: left;
+}
+
+.product-grids table td.productcolor-change {
+  text-align: left;
+}
+
+.productcolor-change .color-items {
+  margin-top: 30px;
+}
+
+.productcolor-change .colorbox {
+  float: left;
+  height: 30px;
+  margin: 0 10px 10px 0;
+  width: 30px;
+  border: 1px solid #ccc;
+}
+
+.productcolor-change {
+  display: none;
+}
+
+.product-grids-middle table td {
+  background-color: #fff;
+  font-size: 17px;
+}
+
+.product-grids-middle table td.kv-grouped-row {
+  background-color: #f9fafb;
+}
+
+.product-grids-middle table td img {
+  cursor: pointer;
+  max-width: 100%;
+}
+
+.product-grids-middle table td.productcolor-change img {
+  max-height: none;
+  cursor: default;
+}
+
+.product-grids-middle table td.productcolor-change {
+  background-color: #fdfdfe;
+}
+
+.product-grids-middle table td.product-colorchange1:hover {
+  background-color: #fdfdfe;
+}
+
+.product-grids-middle table td.product-8thcolumn {
+  cursor: pointer;
+}
+
+/*Faq*/
+
+.faq-header {
+  margin-top: 20px;
+  width: 100%;
+  font-size: 57px;
+  color: #292929;
+  font-weight: 600;
+}
+
+.faq-subheader {
+  margin-top: 20px;
+  width: 100%;
+  font-size: 51px;
+  color: #292929;
+  text-align: center;
+  font-weight: 600;
+}
+
+.faq-started {
+  width: 100%;
+  float: left;
+}
+
+.faq-body a:hover,
+.faq-body a:focus {
+  text-decoration: none;
+}
+
+.faq-body h2 {
+  color: #292929;
+  font-weight: 600;
+  font-size: 31px;
+  margin-bottom: 22px;
+}
+
+.faq-body .panel-group {
+  margin-left: 11px;
+}
+
+.faq-body .panel-default .panel-heading {
+  background: none;
+  border: none;
+  padding: 6px 0px;
+}
+
+.faq-body .panel-group .panel {
+  margin-bottom: 0;
+  border-radius: 0px;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.faq-body .panel-body {
+  padding: 10px 0px;
+}
+
+.faq-body .panel-group .panel-heading + .panel-collapse > .panel-body {
+  border-top: 0px;
+}
+
+.faq-body .panel-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  color: #000;
+  font-weight: bold;
+}
+
+.faq-body .caret-downrighticon {
+  display: none;
+}
+
+.faq-body .panel-title a[aria-expanded="true"] {
+  color: f00;
+}
+
+.faq-body .panel-title a[aria-expanded="true"] .caret-downrighticon {
+  display: block;
+  float: left;
+}
+
+.faq-body .panel-title a[aria-expanded="true"] .caret-righticon {
+  display: none;
+}
+
+.faq-body .panel-heading i {
+  width: 1em;
+  vertical-align: top;
+  padding-top: 2px;
+}
+
+.faq-body .panel-body p {
+  color: #7a7a7a;
+  font-size: 15px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.faq-body .panel-body p:last-child {
+  margin-bottom: 0px;
+}
+
+.faq-middle {
+  float: left;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.faq-body .panel-title a {
+  color: inherit;
+  line-height: 24px;
+}
+
+.faq-bottom {
+  float: left;
+  width: 100%;
+}
+
+.faq-bottom h2 {
+  font-size: 35px;
+  color: #292929;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.faq-bottom p {
+  color: #7a7a7a;
+  font-size: 17px;
+  text-align: center;
+}
+
+.faq-homelink {
+  font-size: 28px;
+  color: #333;
+  display: block;
+}
+
+.faq-bottomlogo {
+  width: 100%;
+  background-color: #000;
+  text-align: center;
+  padding: 11px 0px;
+  margin-top: 20px;
+}
+
